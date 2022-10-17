@@ -28,7 +28,7 @@ CREATE TABLE dbo.Employees(
 )
 GO
 -- index Username
-CREATE NONCLUSTERED INDEX IX_Username_CivilParishes 
+CREATE NONCLUSTERED INDEX IX_Username_Employees 
     ON dbo.Employees(Username) 
 GO
 
